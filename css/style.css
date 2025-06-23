@@ -1,0 +1,12 @@
+.inline-block-child {
+  display: inline-block;
+}
+.cabeçalho{
+    background-color: slategray;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    color: white;
+    padding: 0%;
+    text-align: center;
+    border-radius: 20px;
+}
