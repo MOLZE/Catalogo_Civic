@@ -1,9 +1,31 @@
-.cabeçalho{
+.cabeçalho {
     background-color: lightslategray;
     margin: auto;
     padding: 5px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
 }
+
+.cabeçalhoSI {
+    background-color: lightslategray;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.inline-block-child img {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -36,12 +58,24 @@ main {
   margin-top: 15px;
   padding-left: 20px;
 }
+
 body{
-  background-color: white;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(167, 14, 14));
   margin: auto;
 }
+
+.bodySI{
+  background-image: linear-gradient(black, rgb(167, 14, 14));
+  margin: auto;
+}
+
+.bodyTypeR{
+  background-image: linear-gradient(rgb(167, 14, 14), black);
+  margin: auto;
+}
+
 footer{
-  background-color: black;
+  background-color:  lightslategray;
   color: white;
   margin: auto;
   padding: 5px;
