@@ -62,6 +62,7 @@ main {
 body{
   background-image: linear-gradient(rgb(255, 255, 255), rgb(167, 14, 14));
   margin: auto;
+  font-family: 'Roboto';
 }
 
 .bodySI{
